@@ -179,12 +179,14 @@ input[type=email] {
     h1 {
         max-width: 100%;
         display: block;
+        text-align: center;
 
     }
     .container {
         max-width:100%;
     }
     nav {
-        text-align: center;
+      float: none;
+      text-align: center;
     }
 }
