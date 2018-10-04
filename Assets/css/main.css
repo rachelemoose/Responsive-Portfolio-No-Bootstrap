@@ -164,10 +164,27 @@ input[type=email] {
     }
 }
 @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
 
 }
 @media screen and (max-width: 640px) {
-    .main-header{
+    .main-header {
         position: static;
+        display: block;
+        max-width: 100%;
+    }
+
+    h1 {
+        max-width: 100%;
+        display: block;
+
+    }
+    .container {
+        max-width:100%;
+    }
+    nav {
+        text-align: center;
     }
 }
